@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Ejercicio_Interfaz;
+
+Invertebrado invertebrado = new Invertebrado();
+invertebrado.Nombre = "Zancudo";
+invertebrado.Imprimir();
